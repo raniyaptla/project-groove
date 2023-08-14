@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Preahvihear&family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+header,footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+
+}
+
+
+#logo{
+    width: 100px;
+    padding-top:10px;
+    padding-bottom: 10px;
+
+}
+#welcomesec{
+    background-image: url("https://kq-storage.s3.ap-south-1.amazonaws.com/Github/groove-bg%5B1%5D.png");
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 85vh; 
+
+  
+
+}
+
+#welcomesec>h1
+{
+    font-size: 45px;
+    padding-top: 15%;
+}
+
+#welcomesec>p{
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+
+
+
+}
+.button{
+    
+    background-color: #27AE60;
+    padding: 10px;
+    width: 130px;
+    /* height:30px; */
+    margin:auto;
+    cursor: pointer;
+    color: white;
+}
+
+.store{
+    padding: 20px;
+}
+
+.button>a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.table>h2,table{
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+
+}
+table,th,tr,td{
+    margin: auto;
+    border:2px solid lightgrey;
+    border-spacing :5px;
+    padding: 20px;
+    border-collapse: collapse;
+    font: size 20px;
+}
+
+#mobile{
+    width: 200px;
+    text-align: center;
+    padding:5px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+
+}
+#quantity{
+    width:40px;
+    
+}
+th{
+    background-color: #27AE60;
+    color: white;
+
+}
+
+tr:hover{
+    background-color: #EDEAE4;
+
+}
+h3{
+    display: none;
+}
+footer{
+    width:100%;
+    height:30px;
+    padding:20px;
+
+
+}
+
+
+
+td>img{
+    width:50px;
+    height: 70px;
+}
